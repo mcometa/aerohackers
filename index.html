@@ -1,43 +1,62 @@
 <html>
+
 <head>
   <style>
-  @import url('https://fonts.googleapis.com/css?family=Rajdhani:300');
-  
-  html {
-    font-family: Arial, sans-serif;
-    font-size: 1em;
-  }
+    @import url('https://fonts.googleapis.com/css?family=Rajdhani:400,600');
 
-.container {
-  background: white;
-  height: 200px;
-  width: 60%;
-  margin: 0 auto;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: auto;
-}
+    html {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 1em;
+    }
 
-.logo {
-font-family: Rajdhani;
-  background: black;
-  color: white;
-  width: 50%;
-  padding: 20px;
-  resize: both;
-  overflow: auto;
-}
+    .container {
+      background: white;
+      margin: 0 auto;
+      height: 100%;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      resize: vertical;
+    }
+
+    .logo-container {
+      background: #222;
+      color: white;
+      width: 50%;
+      padding: 20px;
+      resize: vertical;
+      text-align: center;
+      margin-top: -10%;
+    }
+
+    .logo {
+      font-family: Rajdhani;
+      font-weight: 600;
+      font-size: 1.6em;
+      border-bottom: 1px solid #fff;
+      width: 50%;
+      margin: 0 auto;
+      box-shadow: 0 1px #ddd;
+      padding-bottom: .4em;
+    }
+
+    .logo span {
+      font-weight: 400;
+    }
   </style>
 </head>
+
 <body>
-<div class="container">
-  <h1 class="logo">aerohackers</h1>
-  <p>coming soon</p>
-  </div>
-  
-  
+  <div class="container">
+    <div class="logo-container">
+      <h1 class="logo">
+        aerohackers<span>uav</span>        
+      </h1>
+      <p>coming soon...</p>
+    </div>
+    </div>
+
 </body>
+
 </html>
